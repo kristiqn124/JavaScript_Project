@@ -1,0 +1,123 @@
+html{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+#h{
+    text-align: center;
+    font-family: serif;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px; 
+   
+}
+
+.slider{
+    display: block;
+    height: 100%;
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.slide{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img-slide{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 40px;
+    background-image: url(pattern.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.text-slide{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(quotes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80px;
+}
+.img-slide ,image{
+    height: 100%;
+    width: 300px;
+}
+.t-text{
+    font-weight: 300;
+    font-size: .7rem;
+    line-height: 1rem;
+   
+}
+.a-text{
+    margin-top: 20px;
+    font-size: .5rem;
+    font-weight: 700;
+}
+
+.prev,.next{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+}
+.prev::after,.next::after{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+      
+}
+
+.prev:hover,.next:hover{
+    background-color: antiquewhite;
+    
+}
+    
+.buttons{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 600px;
+    width: 90px;
+    height: 45px;
+    border-style: solid;
+    border-radius:40px;
+    background-color: white;
+    overflow: hidden;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+.slide-2{
+    display: none;
+}

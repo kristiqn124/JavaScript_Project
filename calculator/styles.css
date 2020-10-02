@@ -1,0 +1,67 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #fff2e6;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-yellow {
+    background: rgb(245, 146, 62);
+    color: white;
+}
+
+.btn-grey {
+    background: rgb(224, 224, 224);
+}
+
+.btn-green {
+    background: rgb(20, 196, 14);
+}
+
+.btn-red {
+    background: rgb(222, 11, 11);
+}
+
+
+
+#btn-div {
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s linear;
+}
+
+button {
+    flex: 0 0 25%;
+    border: 1px solid black;
+    padding: 0.25rem 0;
+    transition: all 2s ease;
+}
+
+.btn-grey:hover {
+    background: blue;
+}
+
+.screen {
+    width: 100%;
+    font-size: 7rem;
+    padding: 0.5rem;
+    background: rgb(41, 41, 56);
+    color: white;
+    border: none;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+}
+
+#container {
+    flex: 0 0 40%;
+    border: solid;
+}

@@ -1,0 +1,52 @@
+body {
+    background-color: blanchedalmond;
+    place-items: center;
+    display: grid;
+}
+
+#h {
+    font-family: serif;
+    font-size: 40px;
+}
+
+#slide-Container {
+    position: relative;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 12px;
+    height: 600px;
+    width: 900px;
+    margin: 4px;
+}
+
+#image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#left {
+    bottom: 48%;
+    /*your button position*/
+    right: 97.1%;
+    /*your button position*/
+}
+
+#right {
+    bottom: 48%;
+    /*your button position*/
+    right: 0px;
+    /*your button position*/
+}
+
+#right,
+#left {
+    opacity: 40%;
+    color: black;
+    background-color: cadetblue;
+    text-decoration: none;
+    border-style: none;
+    font-size: 50px;
+    position: absolute;
+}
