@@ -22,7 +22,7 @@
         <p>How Much Was Your Bill ?</p>
         <input type="number" id="bill">
         <p>How Many People Sharing The Bill ?</p>
-        <input type="number" id="people">
+        <input type="number" class="people">
         <p>How Was Your Service</p>
         <input list="browsers" name="browser" id="browser">
         <datalist id="browsers">
@@ -31,14 +31,16 @@
             <option value="Great-20%">
         </datalist>
 
-        <input type="submit" id="total">
-    </div>
-    <p id="tip"></p>
-    <p id="total"></p>
-    <p id="person"></p>
-    <div>
-    </div>
-    <script src="script.js"></script>
-</body>
+        <div class="loader" style="display: none"></div>
+        <p class="warning" style="display:none">Enter Values!</p>
+        <div id="OutputContainer">
+            <p id="total"></p>
+            <p id="person"></p>
+            <p id="tip1"></p>
+        </div>
 
-</html>
+    </div>
+    <input type="submit" id="totalbtn">
+
+    <script src="script.js"></script>
+</body></html>
