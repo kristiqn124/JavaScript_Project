@@ -1,5 +1,7 @@
 body {
-    background-color:#fff1e6;
+    background-image: url(Colorful-Plait-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     place-items: center;
     display: grid;
     font-size: 20px;
@@ -7,11 +9,16 @@ body {
 
 #container {
     border-style: solid;
-    border-color: #cb997e;
+    border-color: #f4a261;
     margin: 10px;
     padding: 10px;
     background-color: #eddcd2;
     font-family: fantasy;
+    position: absolute;
+    top:20%;
+    left: 35%;
+    text-align: center;
+    border-radius: 10px;
 }
 
 #OutputContainer {
@@ -24,6 +31,11 @@ body {
     font-family: serif;
     color: red;
 }
+#btnDiv{
+    padding: 10px;
+    text-align: center;
+}
+
 
 .loader {
     position: relative;
