@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1>ROCK🥊 PAPER📄 SCISSORS✂</h1>
+      </div>
+    </header>
+    <!-- Points Style must Change -->
+    <div class="game-container">
+      <div class="result">
+        <div class="points_ME points">
+          <div id="team-img-my"><p style="font-size: 50px">Me</p></div>
+          <div id="my-score">0</div>
+        </div>
+
+        <div class="points_AI points">
+          <div id="team-img-computer"><p style="font-size: 50px">💻</p></div>
+          <div id="computer-score">0</div>
+        </div>
+      </div>
+      <div class="status">
+        <div class="btnContainer">
+          <button class="resetResult" id="btnReset">Reset result</button>
+        </div>
+        <div class="innerStatus draw">
+          <h1 class="statusHead" style="font-size: 60px">Win</h1>
+        </div>
+      </div>
+      <!-- Style and functionality -->
+      <div class="img-container">
+        <ul class="image-list">
+          <li><img src="/rock.png" alt="" class="img" id="rock" /></li>
+          <li><img src="/paper.png" alt="" class="img" id="paper" /></li>
+          <li><img src="/scissors.png" alt="" class="img" id="scissors" /></li>
+        </ul>
+      </div>
+
+      <div class="container-AI">
+        <div><h2>Computer Choice:</h2></div>
+        <div class="computer-choice">
+          <img src="/rock.png" alt="" class="img-comp" />
+        </div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
