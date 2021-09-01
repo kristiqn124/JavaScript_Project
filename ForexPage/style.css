@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #444;
+  background-color: rgb(224, 229, 236);
+  height: 100vh;
+  padding: 2rem;
+}
+.header {
+  background-color: rgb(209, 228, 235);
+  text-align: center;
+  margin-top: 1em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-size: 2em;
+  border-radius: 7px;
+}
+#container {
+  margin-top: 20px;
+  width: 30%;
+  padding: 10px;
+}
+.outCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.currency-row {
+  box-shadow: rgb(255, 255, 255) -8px -8px 12px inset,
+    rgb(163, 177, 198) 8px 8px 12px;
+  margin: 1em;
+  padding: 10px;
+  background: rgb(224, 229, 236);
+  border-radius: 25px;
+}
+
+.currency-value {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.dec-rates {
+  background-color: lightpink;
+}
+.inc-rates {
+  background-color: lightgreen;
+}
+.currency-subtitle {
+  margin-top: 10px;
+  font-size: 20px;
+}
